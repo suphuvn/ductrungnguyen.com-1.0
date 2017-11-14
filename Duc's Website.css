@@ -1,0 +1,124 @@
+body {
+  font-weight: 300;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('https://images.alphacoders.com/567/567999.jpg');
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron img {
+
+	width: 18px;
+}
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.col-md-6 {
+	height: 24px;
+	width:24px;
+  margin: 0 0 30px;
+}
+
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #ffffff;
+  text-shadow: none;
+  background-color: blue;
+}
+
+.btn.btn-primary:hover {
+  color: blue;
+  background-color: #ffffff;
+}
+
+.btn-secondary {
+  border-radius: 2px;
+  border: 0px;
+  color: #ffffff;
+  text-shadow: none;
+  background-color: blue;
+}
+
+.btn-secondary:hover {
+	color: blue
+	background-color: #ffffff;
+}
+
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+
+.location a {
+	font-size: 32px;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.aboutme a {
+	font-size: 32px;
+	font-family: 'Roboto', sans-serif;
+}
+
